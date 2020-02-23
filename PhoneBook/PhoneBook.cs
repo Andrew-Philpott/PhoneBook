@@ -5,7 +5,7 @@ namespace PhoneBook {
   public class PhoneBook
   {
     public string Name { get; set; }
-    public Dictionary<string, string> phoneNumbers { get; set; }
+    public static Dictionary<string, string> phoneNumbers { get; set; }
     public PhoneBook(string name) {
       Name = name;
       phoneNumbers = new Dictionary<string, string>();
