@@ -8,6 +8,7 @@ namespace PhoneBook {
     public Dictionary<string, string> phoneNumbers { get; set; }
     public PhoneBook(string name) {
       Name = name;
+      phoneNumbers = new Dictionary<string, string>();
     }
 
     public void AddContact(string name, string number) {
